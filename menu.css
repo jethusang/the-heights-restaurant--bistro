@@ -1,0 +1,89 @@
+/* html {
+} */
+
+
+/* html body {} */
+
+.font-1 {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #0a2f42;
+    ;
+}
+
+.font-2 {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.font-3 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.container {
+    margin: auto;
+    /* padding: 5px; */
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+}
+
+.container .card {
+    margin: 10px 5px;
+    padding: 15px;
+    border: 1px solid #f0c00260;
+    /* box-shadow: 5px 5px 5px rgb(77, 76, 76); */
+    width: 250px;
+    display: inline-block;
+    /* flex: 1 0 21%; */
+}
+
+.container .card .offer {
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: whitesmoke;
+    padding: 2px;
+    border-radius: 2px;
+    font-size: small;
+}
+
+
+/* .container.card .item-image {} */
+
+.container .card .item-image img {
+    width: 250px;
+    height: 166.663px;
+}
+
+
+/* .container .card .item-content {} */
+
+.container .card .item-content .item-price {
+    color: black;
+}
+
+.order-btn {
+    background-color: #D79135;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 30px;
+    color: #0a2f42;
+}
+
+.container .card .item-content .order-btn:hover {
+    background-color: #0a2f42;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 30px;
+    color: #D79135;
+    cursor: pointer;
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thandzin At Service | Menu</title>
+    <link rel="stylesheet" href="menu.css" />
+    <link rel="stylesheet" href="rws.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="/images/the-heights-resturant-and-baristro-kimberley.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        .empty-cart-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .empty-cart-content {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            max-width: 80%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        .empty-cart-content h3 {
+            color: #ff6E00;
+            margin-bottom: 20px;
+        }
+        
+        .empty-cart-btn {
+            background-color: #ff6E00;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 15px;
+        }
+    </style>
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="main-header" style="background: url(images/a-table-at-the-heights-kimberley-resturant.jpg) center center / cover no-repeat; height: 300px;">
+        <div class="content" style="margin: 0% 10%;display: inline-flex;flex-wrap: wrap;justify-content: center;">
+            <div class="header-content">
+                <img src="/images/the-heights-resturant-and-baristro-kimberley.png" alt="" class="logo" style="width: 200px;">
+
+            </div>
+            <div class="search-container" style="margin-top: 5%;">
+                <a href="/index.html"> <i class="fa fa-home" aria-hidden="true"></i>
+                </a>
+                <input type="text" id="searchInput" class="font-3" placeholder="Search menu items...">
+            </div>
+            <div class="category-filter" style="margin-top: 5%;">
+                <button class="category-btn font-3 active" data-category="all">All</button>
+                <button class="category-btn font-3" data-category="starters">Starters</button>
+                <button class="category-btn font-3" data-category="salads">Salads</button>
+                <button class="category-btn font-3" data-category="light meals">Light Meals</button>
+                <button class="category-btn font-3" data-category="burgers">Burgers</button>
+                <button class="category-btn font-3" data-category="chef specials">Chef Specials</button>
+                <button class="category-btn font-3" data-category="curries & casseroles">Curries & Casseroles</button>
+                <button class="category-btn font-3" data-category="schnitzels">Schnitzels</button>
+                <button class="category-btn font-3" data-category="grills">Grills</button>
+                <button class="category-btn font-3" data-category="seafood">Seafood</button>
+                <button class="category-btn font-3" data-category="pizza">Pizza</button>
+                <button class="category-btn font-3" data-category="pasta">Pasta</button>
+                <button class="category-btn font-3" data-category="sides">Sides</button>
+                <button class="category-btn font-3" data-category="sauces">Sauces</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="menuContainer"></div>
+
+    <div class="cart-btn" id="cartButton">
+        <span class="cart-count font-2" id="cartCount">0</span>
+    </div>
+    <div class="finish-order-btn font-2" id="finishOrderBtn">Finish Order</div>
+
+
+    <div class="modal" id="orderModal">
+        <div class="modal-content">
+            <div class="main-header" style="display: inline-flex; padding: 15px 20px;">
+                <img src="/images/the-heights-resturant-and-baristro-kimberley.png" alt="" class="logo" style="width: 150px;">
+                <h2 class="font-1" style="margin-top: 15%;">Your Order Summary</h2>
+            </div>
+            <div id="orderItemsContainer"></div>
+            <p class="item-price font-1"><strong>Total: R<span id="orderTotal">0.00</span></strong></p>
+            <div class="modal-buttons">
+                <button id="nextToDetailsBtn" class="order-btn font-3">Next</button>
+                <button id="closeModalBtn" class="order-btn font-3" style="background-color: #6c757d;">Continue
+                    Shopping</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal" id="orderDetailsModal">
+        <div class="modal-content">
+            <div class="main-header" style="display: inline-flex; padding: 15px 20px;">
+                <img src="/images/the-heights-resturant-and-baristro-kimberley.png" alt="" class="logo" style="width: 150px;">
+                <h2 class="font-1">Order Details</h2>
+            </div>
+            <form id="orderDetailsForm">
+                <div class="form-group">
+                    <label for="customerName" class="font-2">Your Name:</label>
+                    <input type="text" id="customerName" class="font-3" required>
+                    <div id="nameError" class="error-message">Please enter your name</div>
+                </div>
+                <div class="form-group">
+                    <label for="collectionTime" class="font-2">Collection Time:</label>
+                    <input type="datetime-local" id="collectionTime" class="font-3" required>
+                    <div id="timeError" class="error-message">Please select a collection time</div>
+                </div>
+                <div class="form-group">
+                    <label for="specialRequests" class="font-2">Special Requests (optional):</label>
+                    <textarea id="specialRequests" class="font-3" rows="4"></textarea>
+                </div>
+            </form>
+            <div class="modal-buttons">
+                <button id="sendOrderBtn" class="order-btn font-3">Finish Order</button>
+                <button id="backToSummaryBtn" class="order-btn font-3" style="background-color: #6c757d;">Back to
+                    Summary</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="option-modal" id="optionModal">
+        <div class="option-content">
+            <div class="main-header" style="display: inline-flex; padding: 15px 20px;">
+                <img src="/images/the-heights-resturant-and-baristro-kimberley.png" alt="" class="logo" style="width: 100px;">
+                <h2 class="font-1" id="optionModalTitle">Select Options</h2>
+            </div>
+            <div id="optionForm"></div>
+            <div class="modal-buttons" style="margin-top: 20px;">
+                <button id="confirmOptionsBtn" class="order-btn font-3">Add to Order</button>
+                <button id="cancelOptionsBtn" class="order-btn font-3" style="background-color: #6c757d;">Cancel</button>
+            </div>
+        </div>
+    </div>
+    <div class="empty-cart-modal" id="emptyCartModal">
+        <div class="empty-cart-content">
+            <img src="/images/the-heights-resturant-and-baristro-kimberley.png" alt="Logo" style="width: 100px; margin-bottom: 15px;">
+            <h3>Your cart is empty</h3>
+            <p class="font-2">Please add items to your cart before proceeding</p>
+            <button class="empty-cart-btn font-3" id="closeEmptyCartBtn">OK</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="/js/menu.js"></script>
+</body>
+
+</html>

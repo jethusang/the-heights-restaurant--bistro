@@ -1,0 +1,402 @@
+{
+    "menu": [{
+            "name": "GARLIC FOOTLONG ROLL",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "With melted cheese, paprika & parsley",
+            "price": 50,
+            "category": "starters"
+        },
+        {
+            "name": "MARROW BONES",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Two long bones, oven roasted with parmesan cheese & baguette slices",
+            "price": 75,
+            "category": "starters"
+        },
+        {
+            "name": "CALAMARI",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Deep-fried rings with mayonaise, pickled ginger & lemon wedges",
+            "price": 115,
+            "category": "starters"
+        },
+        {
+            "name": "CARPACCIO",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Crocodile or Springbuck with capers, tomatoes and onions, with olive oil, balsamic vineger & lemon wedges",
+            "price": 135,
+            "category": "starters"
+        },
+        {
+            "name": "CHEESY GARLIC SNAILS",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Pan-fried in garlic butter with parsley, topped with melted cheese paprika served with baguette slices",
+            "price": 115,
+            "category": "starters"
+        },
+        {
+            "name": "CRUMBED MUSHROOMS",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Deep-fried mushrooms with cheese sauce",
+            "price": 110,
+            "category": "starters"
+        },
+        {
+            "name": "CHICKEN LIVERS",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Spicy Chicken livers with baguette slices",
+            "price": 85,
+            "category": "starters"
+        },
+        {
+            "name": "SNAILS IN MARROW BONES",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Pan-fried in garlic butter with parsley, in marrow bones with parmesan. Served with baguette slices",
+            "price": 125,
+            "category": "starters"
+        },
+        {
+            "name": "MUSSEL BOWL",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "In a creamy garlic white wine sauce with parsley & baguette slices",
+            "price": 115,
+            "category": "starters"
+        },
+        {
+            "name": "KING PRAWNS",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Three king prawns, pan-fried in mild peri-peri oil and served with mayonaise, pickled ginger & lemon wedges",
+            "price": 125,
+            "category": "starters"
+        },
+        {
+            "name": "CAESAR SALAD",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Anchovy, bacon, eggs, parmesan, croutons, lettuce & Caesar dressing",
+            "price": 135,
+            "category": "salads"
+        },
+        {
+            "name": "GREEK SALAD",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Olives, feta & tzatziki",
+            "price": 115,
+            "category": "salads"
+        },
+        {
+            "name": "PRAWN COCKTAIL SALAD",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "In Marie Rose Sauce on crisp summer leaves, avocado & pickled ginger",
+            "price": 135,
+            "category": "salads"
+        },
+        {
+            "name": "TUNA SALAD",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Shredded Tuna on garden greens with mayonnaise & pickled ginger",
+            "price": 115,
+            "category": "salads"
+        },
+        {
+            "name": "CHICKEN MAYONNAISE WRAP",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Chunky, pan-fried Chicken Breast Strips with Bell Peppers & Grated Carrots in a Toasted Folded Wrap (with chips)",
+            "price": 95,
+            "category": "light meals"
+        },
+        {
+            "name": "BEEF WRAP",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Loaded with Grilled Beef Strips, Garden Greens & Tzatziki in a Rolled Wrap (with chips)",
+            "price": 105,
+            "category": "light meals"
+        },
+        {
+            "name": "CHICKEN AND BACON FOOTLONG",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Grilled Chicken and Bacon, BBQ-mayo, topped with Melted Cheese (with chips)",
+            "price": 105,
+            "category": "light meals"
+        },
+        {
+            "name": "FISH AND CHIPS",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Deep-fried Hake Goujons with Mayonnaise, Pickled Ginger & Lemon Wedge",
+            "price": 135,
+            "category": "light meals"
+        },
+        {
+            "name": "BUFFALO WINGS",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Four whole deep-fried Chicken Wings with Peri-Peri Sauce (with chips)",
+            "price": 115,
+            "category": "light meals"
+        },
+        {
+            "name": "STEAK, EGGS & CHIPS",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Spiced Sirloin and Two Fried Eggs",
+            "price": 125,
+            "category": "light meals"
+        },
+        {
+            "name": "CHICKEN, CHIPS & SALAD",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Crispy Half Chicken with Prego Sauce",
+            "price": 145,
+            "category": "light meals"
+        },
+        {
+            "name": "VEG WRAP",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Wok-fried Veggies with Cheese Sauce (with chips)",
+            "price": 95,
+            "category": "light meals"
+        },
+        {
+            "name": "GORGEOUS BURGER",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "180g Beef burger topped with sliced cheese, grilled pineapple, pepper & mushroom sauce, fried egg and onion rings (with chips)",
+            "price": 150,
+            "category": "burgers"
+        },
+        {
+            "name": "BISTRO BURGER",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "180g Plain Beef Burger with Sliced Cheese (with chips)",
+            "price": 125,
+            "category": "burgers"
+        },
+        {
+            "name": "SAUCY MELT BURGER",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "180g Beef Burger with Sliced Cheese and Pepper & Mushroom Sauce (with chips)",
+            "price": 140,
+            "category": "burgers"
+        },
+        {
+            "name": "CHICKEN BURGER",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "180g Grilled Chicken Fillet, BBQ-Mayo, Coleslaw, Topped with Sliced Cheese and Pineapple (with chips)",
+            "price": 125,
+            "category": "burgers"
+        },
+        {
+            "name": "EISBEIN",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Deep fried crispy pork knuckle with hot veg, mashed potatoes, topped with sweet mustard and with apple sauce on the side",
+            "price": 209,
+            "category": "chef specials"
+        },
+        {
+            "name": "FILLET MADAGASCAR",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "300g Beef fillet medallion topped with a creamy whole green peppercorn sauce. Served with hot veg and home-made crispy potato cubes",
+            "price": 299,
+            "category": "chef specials"
+        },
+        {
+            "name": "VEGETARIAN PLATTER",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Jacket potato, crumbed mushrooms, morogo, grilled tomato with baby onion, hot veg, avocado, olives & feta and cheese sauce. Served on a wrap",
+            "price": 169,
+            "category": "chef specials"
+        },
+        {
+            "name": "LAMB CURRY",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Curry of the day (Served with Basmati Rice, Roti, Banana, Chutney, Coconut & Sambals)",
+            "price": 199,
+            "category": "curries & casseroles"
+        },
+        {
+            "name": "OXT DOMBOLO",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Braised rump steak with cabbage, dumplings, tomato & onion gravy, cole slaw and chilli flakes",
+            "price": 179,
+            "category": "curries & casseroles"
+        },
+        {
+            "name": "BEEF SCHNITZEL",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Topped with a sauce of your choice (Served with Deep-fried Potato Cubes, Greek Salad & Tzatziki)",
+            "price": 179,
+            "category": "schnitzels"
+        },
+        {
+            "name": "PORK SCHNITZEL",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Topped with a sauce of your choice (Served with Deep-fried Potato Cubes, Greek Salad & Tzatziki)",
+            "price": 169,
+            "category": "schnitzels"
+        },
+        {
+            "name": "CHICKEN SCHNITZEL",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Topped with a sauce of your choice (Served with Deep-fried Potato Cubes, Greek Salad & Tzatziki)",
+            "price": 159,
+            "category": "schnitzels"
+        },
+        {
+            "name": "T-BONE STEAK",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "400g T-Bone Grilled to Perfection (Served with your choice of side)",
+            "price": 249,
+            "category": "grills"
+        },
+        {
+            "name": "RUMP STEAK",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "300g Rump Steak Grilled to Perfection (Served with your choice of side)",
+            "price": 249,
+            "category": "grills"
+        },
+        {
+            "name": "BEEF PRIME RIBS",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Slow roasted and grilled (Served with your choice of side)",
+            "price": 249,
+            "category": "grills"
+        },
+        {
+            "name": "MIXED GRILL",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "300g Beef rib, lamb chop, spiced sirloin, wors & 2 wings (Served with your choice of side)",
+            "price": 349,
+            "category": "grills"
+        },
+        {
+            "name": "LAMB CUTLETS",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "3 x Lamb Cutlets with BBQ-mayo sauce (Served with your choice of side)",
+            "price": 249,
+            "category": "grills"
+        },
+        {
+            "name": "PORK CHOPS",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "2 x Grilled Pork Chops with BBQ-mayo sauce (Served with your choice of side)",
+            "price": 199,
+            "category": "grills"
+        },
+        {
+            "name": "CHICKEN PREGO",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Marinated Sirloin drizzled with Prego Sauce (Served with your choice of side)",
+            "price": 145,
+            "category": "grills"
+        },
+        {
+            "name": "GRILLED KINGKLIP",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Lemon buttered fillet, pan-fried with coarse salt & pepper",
+            "price": 265,
+            "category": "seafood"
+        },
+        {
+            "name": "GRILLED SOLE",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Lightly dusted and lemon buttered",
+            "price": 215,
+            "category": "seafood"
+        },
+        {
+            "name": "SURF & TURF",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Grilled Sirloin, 3 tiger prawns & lightly dusted lemon buttered sole",
+            "price": 399,
+            "category": "seafood"
+        },
+        {
+            "name": "PRAWNS AND CALAMARI",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Three pan-fried king prawns and a portion of deep-fried calamari rings",
+            "price": 245,
+            "category": "seafood"
+        },
+        {
+            "name": "PRAWNS AND CHICKEN",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Three pan-fried king prawns & with peri-peri sauce & grilled half chicken",
+            "price": 250,
+            "category": "seafood"
+        },
+        {
+            "name": "THREE CHEESE PIZZA",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Cheddar, feta, mozzarella, garlic & herbs",
+            "price": 135,
+            "category": "pizza"
+        },
+        {
+            "name": "REGINA PIZZA",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Bacon, ham & mushrooms",
+            "price": 165,
+            "category": "pizza"
+        },
+        {
+            "name": "SALAMI PIZZA",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Salami, olives, caramalized onions, chillies, peppadews & garlic",
+            "price": 170,
+            "category": "pizza"
+        },
+        {
+            "name": "CROSPATCH PIZZA VEGETARIAN",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Bell peppers, caramalized onions, peppadews, olives, mushrooms & garlic",
+            "price": 150,
+            "category": "pizza"
+        },
+        {
+            "name": "VEG CURRY PIZZA",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Curried steamed seasonal veggies with hot spices",
+            "price": 165,
+            "category": "pizza"
+        },
+        {
+            "name": "BAKED BEEF LASAGNE",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Layered with rich, meaty marinara",
+            "price": 175,
+            "category": "pasta"
+        },
+        {
+            "name": "PENNE ALFREDO",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Bacon, ham & mushrooms with melted mozzarella",
+            "price": 175,
+            "category": "pasta"
+        },
+        {
+            "name": "VEG LASAGNE PASTA",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Layered with seasonal vegetables and cheese sauce",
+            "price": 155,
+            "category": "pasta"
+        },
+        {
+            "name": "CHIPS",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "With potato spices",
+            "price": 39,
+            "category": "sides"
+        },
+        {
+            "name": "HOT VEGETABLES",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Sprinkled with veggie spices & herbs",
+            "price": 39,
+            "category": "sides"
+        },
+        {
+            "name": "SAUCE",
+            "image-url": "images/food-placeholder.jpeg",
+            "description": "Mushroom, Pepper, Cheese, Creamy Garlic, Prego, BBQ, Sweet Chilli-mayo",
+            "price": 35,
+            "category": "sauces"
+        }
+    ]
+}
